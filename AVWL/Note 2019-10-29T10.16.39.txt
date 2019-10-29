@@ -1,0 +1,69 @@
+Note 2019-10-29T10.16.39
+========================
+
+10 Regeln der VWL:
+
+* Menschen stehen vor alternativen: wir müssen etwas aufgeben, um etwas anderes zu erhalten
+* Die Kosten eines Gutes sind das, was man dafür aufgibt
+	* opportunitätskosten:das was aufgegeben wird um was anderes zu erlangen
+* Rationale Menschen denken in Grenzbegriffen
+* Menschen reagieren auf Anreize
+* Durch Handel kann es jedem besser gehen
+* Märkte sind in der Regel eine effiziente Methode der ökonomischen Organisation
+	* dezentrale entscheidungen durch unternehmen und haushalte
+	* adam smith: haushälte und märkte wirken zusammen wie von unsichtbarer hand gelenkt. wettbewerb führt zu effizienter allokation von ressourcen
+* Regierungen können manchmal die marktergebnisse verbessern
+	* marktversagen: ressourcen werden nicht effizient verteilt
+		* dann kann eine Regierung intervenieren
+		* ausgelöst durch externen effekt, marktmacht
+* Der Lebensstandard einer Volkswirtschaft hängt von ihrer Fähigkeit ab, Güter,waren und dienstleistungen herzustellen
+	* Lebenstandard:Menge von Gütern, die die Bevölkerung kaufen kann
+	* Produktivität: Wert von Gütern pro Arbeitsstunde
+* Preise Steigen, wenn Zentralbank Geld in Umlauf bringt
+* Eine Gesellschaft muss kurzfristig zwischen Inflation und Arbeitslosigkeit wählen
+	* Phillipskurve
+
+
+Positiver Aussagen sind deskriptiv - wie ist die welt
+
+normative aussagen sind präskriptiv - wie sollte die welt sein
+
+Volkswirte haben evtl unterschiedliche Werte oder unterschiedliche positive theorien, deshalb streiten sie
+
+
+
+
+**märkte**
+
+Polypol,Monopol,oligopol, monopolistische Konkurrenz
+
+oligopol: "mehrere monopolanbieter"
+
+monopolistische konkurrenz: "jeder hat quasi ein monopol auf sein eigenes produkt, aber alle produkte sind leicht unterschiedlich. Der Kunde kann entscheiden, was er haben will und was es ihm wert ist, er vergleicht nie zwischen preisen für das gleiche produkt. e.g. alexa und google assistant sind unterschiedlich, obwohl es beides sprachassistenten sind. amazon und google werden von den preisen des anderen kaum beeinflusst"
+
+Nachfragekurve - beziehung zwischen preis und nachfrage(x-nachfrage y-preis)
+
+komplementäres gut: ein produkt senkt den preis, ein anderes steigt in der nachfrage.
+
+substitut: ein produkt senkt den preis, ein anderes sinkt in der nachfrage
+
+nachfrage geht hoch->kurve auch
+
+preis geht hoch->bewegung auf der nachfragekurve
+
+normales gut: nachfragemenge steigt mit steigendem einkomment
+
+inferiores gut: nachfragemenge fällt mit steigendem einkommmen
+
+gesetz des angebots: Angebotsmenge steigt mit Preis
+
+
+
+Nachfrage und angebot spielen immer zusammen und es gibt ein gleichgewicht
+
+
+
+
+einführung von breitbandanschlüssen senkt den preis von videorekordern
+
+

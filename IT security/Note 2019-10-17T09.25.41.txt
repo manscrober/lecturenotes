@@ -1,0 +1,40 @@
+Note 2019-10-17T09.25.41
+========================
+encryption referat themen werden heute schon verteilt
+
+Klausur fokus etwas mehr auf 2ten semester
+
+**security**: the state of being free from danger or threat
+
+**vulnerability**: a flaw or weakness in a system that could result in a security breach
+
+**exploit**:something that takes advanage of a bug or vulnerability to cause unintended or unanticipated behaviour
+**zero-day**: a vulnerability that is unknown to the vendor
+
+
+types of attacker and skill/danger from 1-3
+
+* criminals/scammers 2-3
+* hacktivists 2
+* countries/state 100
+* script kiddies 1
+* competitors 1-2
+* frustrated employees 3
+* black hats 3
+
+
+attacker has advantages
+
+* only has to succeed once
+* can choose weakest point
+* can leverage zero days
+* doesn't have to play by the rules
+
+an advanced persistent threat(APT) is when an attacker stays unnoticed inside a system. This is most often done by a state or country, for surveillance purposes
+
+lots of examples of hacks, exploits and vulnerabilities
+
+hardware examples: arduino usb, usb wifi HID injector(also available as cable)
+
+
+

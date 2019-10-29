@@ -1,0 +1,283 @@
+Note 2019-10-25T09.17.39
+========================
+
+Stefan Anft
+
+
+Themen z.B. React Vue Angular schnittstellen web
+
+relativ praktisch orientierte vorlesung
+
+\5. Semester vor allem Frontend - backend wird gemockt
+
+apache struts2 & angular
+
+struts2-> round trip architektur. server generiert html,
+
+angular ist mehr ein framework mit starken strukturen im gegensatz zu vue und react
+
+struts2 und angular sind beide nach MVC angesetzt
+
+
+
+nächstes Semester:
+persistence(JPA), CRUD
+
+Spring: Kleber zwischen backend und frontend
+
+
+
+Java, Java EE, REST, SPA
+
+client server
+
+
+OLAP, OLTP
+
+technische anforderungen
+
+* Interoperabilität
+* sicherheit
+* skalierbarkeit
+* deployment
+* verfügbarkeit
+
+
+wie beachtet man all diese anforderungen(siehe folie)?
+
+* software architecture
+* frameworks
+* Komponenten
+* Laufzeitumgebungen
+
+architektur nachträglich ändern ist sehr schwer
+
+hardware architekturen: netzwerk, hardware-plattformen
+
+Software architekturen: anwendungsarchitektur,-verteilung, -modelle, Komponentearchitektur
+
+
+
+standard definition architektur ist eine struktur zusammengesetzt aus komponenten beziehungen untereinander entwurfsmodell, fortentwicklung
+
+muster=bewärte Lösung für wiederkehrendes problem in einem kontext. verschwimmt mit architektur
+
+
+schichten,mvc,pipes and filters,broker
+
+
+schichtenmodell: immer von oben nach unten anfordern, keine schichten ueberspringen
+
+linear nur auf das naechstniedrigste, strikt auf alle niedrigeren, baumartig 
+
+vorteil strukturiereung,abstraktion,hohe flexibilität innerhalb von schicht,wiederverwendbarkeit,änderbarkeit,wartbarkeit,portabilität
+
+nachteil effizienzverlust schwere abstraktion chaos innerhalb schicht
+
+web:browser,http client->webserver->app server->db server
+
+client-server: client ->server
+
+**unser schichtenmodell:**
+
+presentation->process->data
+
+pres.:darstellung,dialogfluss,html,formulare,jsp,html,action-controller-klasse
+
+
+process: business logic, bestellannahme,servicekomponente
+
+data: geschäftsdaten, bestellung,bestand,data access object, entity klasse
+
+
+
+MVC bzw. MVVM:
+
+**Model**->datenhaltung und manipulation ("backend")
+MVC schickt info an view, wenn es sich veraendert
+
+in excel:datentabelle
+
+process&data layer
+
+
+**View**-> merkt knopf wurde gedrueckt und meldet das an controller,
+
+in excel:sheet
+
+presentation layer
+
+
+**Controller**-> (viewmodel) entscheidet, was jetzt getan werden muss und gibt das an model,
+sagt der view dass sie updaten soll
+
+
+in excel:buttonzustand. nicht vba und auch nicht makro, sondern nur "button wurde geklickt"
+
+presentation layer
+
+
+
+
+
+
+MVC ist toll weil es betrachtungsweisen trennt, austauschbarkeit und testbarkeit fördert
+
+
+pipes and filters:muster zum verarbeiten von datenströmen - filter sind beliebig anordnebar und getrennt entwickelbar. viel genutzt in unix, angular
+
+
+
+horizontal vs vertical:
+
+ horizontal technisch getreiben, eher abstrakt, keine komplette implementation, wird in unterschiedlichen typen von anwendungen genutzt
+
+vertical ist fachlich getrieben, kann für bestimmte klasse von anwendungen genutzt werden, ist eher konkret und hat eine weithin komplette implementation
+
+
+
+
+application frameworks->domain frameworks->supportframeworks
+
+gui->fachwissen->infrastruktur(e.g. security)
+
+
+framework vorteile:
+
+* man setzt automatisch architekturen um
+* weniger code
+* robuster,zuverlässiger,modularer,standerdisierter,konsistenter code
+* basisfunktionen schon gegeben
+* wartung und programm evolution verbessert
+* integration von programmen wrid vereinfacht
+
+framework nachteile:
+
+* künsterische freiheit eingeschränkt
+* lernkurve:balck box, neue protokolle
+* wasserkopf(man schleppt immer das ganze framework mit obwohl mna nur einen teil braucht)
+
+
+
+
+komponenten sind die grundlage der wiederverwendung:
+
+* halbfabrikat
+* kann in komplexität zwischen klasse und anwendung liegen
+* definiert schnittstellen(API)
+* komponenten lassen sich zusammensetzen zu einer anwendung
+* universell,wiederverwendbar oder modular
+* von dritten erstellt, generell als binary 
+* unabhängig auslieferbar(verteilbar)
+
+business vs technische komponenten:
+
+technisch:druckknopf,textfeld,auswahldialog
+
+business:kunde, bestellung, bestellannahme,crm modul,termindisposition
+
+
+verteilte komponente:java beans,hibernate POJOs,eclipse plugins
+
+nicht verteilte komponentenmodelle:enterprise java beans, corba,.net,web services
+
+
+
+
+
+
+
+
+
+
+modul 2: lernziele:http und REST
+
+http-protokoll:beliebige MIME types,einmaliges frage-antwort-spiel,stateless(aber:cookies,urlrewriting,hidden fields), unverschlüsselt
+
+client request->server response
+
+
+ablauf:
+
+client(request):GET,POST,HEAD,PUT,... URL HTTP/1.x |
+header  info accept,cookie| 
+body:post params
+
+server(antwort):statusmeldung:http/1.x 200 OK|
+header info:content type set-cookie|
+body:dokument
+
+verbindungsabbau.
+
+
+
+
+get:datenabfrage,wiederholbar,params in url
+post:datenergänzung,nicht wiederholbar, params in http-body
+
+**bei vertraulichen daten niemals mit get arbeiten**\
+
+
+
+REST:
+
+* architekturstil für verteilte webanwendungen
+* beschäftigt sich mit maschine-maschine kommunikation
+	* alternative zu bspw. SOAP, WS-*
+* restriktive unterform des aktuellen WWW - "wie kann man das web sinnvoll aufbauen"
+* **REST kein standard, protokoll oder technologie,sondern einfach eine idee**
+* Grundidee: WWW ist ein Zustandsautomat
+	* jede ressource ist eindeutig addressierbar
+	* i.e. wenn ich eine seite aufrufe, kriege ich immer exakt die gleiche ressource zurück
+	* eine ressource kann u.U. aber in verschiedenen repräsentationen dargestellt werden.
+		* MIME type über http header mitgeben
+	* stateless. der server hat keinen zustand, ich muss immer das was ich brauche mitgeben
+* ich sage was ich tun will nicht über die url, sondern über ein http kommando
+	* GET immer lesen, POST immer einfügen,  PUT update/replace,PATCH update/modify,DELETE delete
+
+NEGATIVBEISPIELE REST:
+	/index.php?action=getarticle&id=123456
+keiner weiß, wie getarticle heisst(könnte ja auch findarticle oder so sein)
+browser cachen nur auf dem teil vor dem fragezeichen - nur index.php
+	/default/article/123456/3/5 
+schwer lesbar: was ist 3 und was ist 5?
+
+
+
+richtig bei rest:
+	/articles -> alle artikel
+	/articles/123456 -> artikel 123456
+	/article/123456/photos ->alle photos zu articles
+	/article/123456/photos/3 ->foto 3 von article123456
+-> lesbar, gut cachebar
+
+jede ressource hat eine eindeutige id!!!
+
+REGEL: **in den urls dürfen nur Nomen auftreten**
+
+
+
+besonderheit POST:
+
+nicht idempotent! 
+i.e. wenn ich zwei requests sende, ist das nicht das gleiche als würde ich nur eines senden
+"datensatz anlegen"
+gibt keinen schlüssel mit: /cars
+
+
+im vegleich PUT:
+
+idempotent->zwei requests geben das gleiche zurück
+gibt meistens einen schlüssel mit i.e. /cars/3/
+
+
+filtern:für ids die normale rest art und weise. wenn der filter kein schlüssel ist über query params.
+e.g. /cars?doors=3 für alle autos mit 3 Türen
+
+
+
+HATEOAS "gold ausbaustufe einer REST schnittstelle"
+auflistung von links - mögliche folgezustände als array.
+e.g.: "links":[{"rel":"Add to cart","href":.../cart/123456"}]
+
+

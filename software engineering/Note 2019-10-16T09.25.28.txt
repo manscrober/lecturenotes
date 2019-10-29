@@ -1,0 +1,60 @@
+Note 2019-10-16T09.25.28
+========================
+basis von software engineering ist requirements engineering
+
+
+Hundehuette
+
+Schritte
+
+* einfuehrung ueberblick
+* planungsphase
+* definitionsphase
+* entwurfsphase
+* implementierungsphase
+* einfuerung,betrieb und wartung
+* dokumentation mit UML
+* entwurfs und architekturprinzipien
+
+Komplexität wird unterschätzt. Menschen können nicht mit komplexität umgehen
+
+Software engineering <-> softwaretechnik
+
+software engineering is needed instead of a tinkering development process
+
+moore's law galt nicht fuer software. Software zu entwickeln blieb immer teuer und 
+es gab nur leichte verbesserungen(im vergleich zu denen in der Hardware)
+
+**als loesung wurde softwaretechnik geschaffen**
+
+ingenieurwissenschaftlich ist in deutschland besonders
+* systematische und kreative andwendung wissenschaftlicher grundlagen um einen nuetzlichen effekt zu erreichen
+* wirtschaftliche abwaegungen einbeziehen
+* berechenbare und garantierbare qualitaetseigenschaften(auch bezogen auf wirtschaftlichkeit)
+
+
+ingenieur vs wissenschaftler
+* naturwissenschaftler will welt verstehen und erklaeren
+* ingenieur will probleme loesen
+
+"scientists build to learn, engineers learn to build"
+
+**software engineering:**
+
+* systematic approach to the development operation maintenance and retirement of software
+
+grosses softwaresystem:
+
+* ein doppelt so grosses softwaresystem ist nicht nur doppelt so komplex(eher logarithmisches wachstum) -
+ reduktion der komplexitaet ist von grosser bedeutung
+* 
+
+anwendungssoftware:
+* modelliert reale welt
+* fester oder variabler kontext
+* interaktion mit anwender
+
+professionelle softwareentwicklung:
+* mehrere entwickler setzen methoden udn werkzeuge zur herstellung ein
+* arbeitsteilung und zusammenarbeit muss geplant werden
+* projektorga, vorgehensmodelle, arbeitskonvention, qs-massnahmen

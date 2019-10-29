@@ -1,0 +1,23 @@
+excercise 5.1 prep 2019-10-17T11.08.49
+========================
+
+groups of 3-4 students
+
+15-20min per group, >=5min per member
+5-10min Q&A
+
+topics:
+* WEP FMS&chopchop
+* WPA2 KRACK
+* pgp efail
+* SSL poodle&drown
+* bitlocker tcg opal
+
+17.10.2019 group building and topic assignment
+
+presentation delivered to bjoern.kimminich@nordakademie.de by 17.11.2019
+
+presentation held on 21.11.2019
+
+
+wpa2 wir

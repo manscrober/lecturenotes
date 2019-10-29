@@ -1,0 +1,28 @@
+Note 2019-10-22T09.20.19
+========================
+
+Ziele der Vorlesung:
+
+* was ist ein Programmierparadigma
+* welche gibt es
+* was wissen wir noch ueber funktionale programmierung?
+
+
+imperative programmierung(procedural, OOP)
+
+* beschreiben, *wie* man ein problem loest
+>grundkonzept - variablenzuweisung
+
+deklarative programmierung(functional, logical)
+
+* beschreiben *was* das problem ist
+>grundkonzept - funktion wie in der Mathematik
+
+abstraktionslevel
+
+machine->procedural->OOP->FP
+
+
+Computer arbeiten typenlos
+
+Der Hauptspeicher ist ein ungetyptes universum

@@ -1,0 +1,22 @@
+Note 2019-10-16T15.40.31
+========================
+regel.execute() darf auch existieren
+
+
+regel darf auch functionalinterface sein
+
+
+
+felder triggern regeln
+
+
+
+regeln nicht einfach von anfang bis ende loopen
+
+
+backlog von regeln die noch auszuführen sind
+	wenn abgearbeitet mit diesen regeln nicht lösbar
+
+
+wenn man z.B. ausprobieren muss(wegen des sudokus), dann ist das eben mit regeln nicht loesbar
+

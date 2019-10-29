@@ -1,0 +1,122 @@
+Note 2019-10-21T09.22.24
+========================
+stakeholderanalyse:
+
+* nicht vorschnell einzelne Personen(-Gruppen)ausschließen
+* tabelle name einfluss einstellung erwartung besonderheiten
+* beziehungen zwischen stakeholdern darstellen
+* konfliktpotentiale analysieren
+* win win situationen überlegen und durchpielen
+
+
+Dokumentationsmethode um stakeholder wiederzugeben **Personas**
+
+* beschreibt typische, aber erfunden Nutzer
+* diese verkörpern eigenschaften, erfahrungen, ziele und anforderungen
+* bsp BWLer vs Informatiker
+* **kein ersatz für nutzerbeteiligung**
+* hilft aber, wenn usereinbezug nicht direkt machbar ist
+
+primäre persona: hauptnutzer(student)
+
+sekundäre persona: etwas abweichend(hochschulleitung)
+
+Inhalt einer persona beschreibung:
+
+* name alter gschlecht bild
+* charakterzuege interessen
+* aufgaben
+* ziele
+* verhaltnesmuster
+* pc kenntnisse
+* erfahrung
+
+personas brauchen einen Namen, sonst sind sie zu abstrakt
+
+Arbeitsanalyse
+
+* begehung, befragung, vorgespräche, docs
+* erste kenntnisse organisation, arbeitsbedinungen/-abläufe
+* ziel:erste hypothesen über das problem formulieren
+
+bsp:
+
+* altsysteme sehr unterschiedlich, mangelhaft spezifiziert
+* arbeitssituation sehr unterschiedlich
+* ziel: flexible lösungen ggf parallelversionen
+
+Ablauf der Arbeitsanalyse
+
+* analysephase:strategie, abstimmung,durchführung
+* rückmeldungsphase(an die beteiligten)
+* veränderungsvorschläge(beteiligte einbeziehen)
+
+methoden der arbeitsanalys
+
+* interview
+	* strukturierte gespräche mit wichtigen interessenvertretern
+	* "methode der kritischen ereignissse" (wo versagt das system)
+	* vorteil:unmittelbare sichtweise der beteiligten
+	* nachteil: subjektiv/einsitig, aufwendig
+* fokusgruppeninterview
+	* gut für erste entwürfe/lösungsmöglichkeiten
+	* vorteile: weniger aufwendig als einzelinterviews, einzelmeinungen werden korrigiert, beteiligte kommen ins gespräch
+	* nachteile: weniger detail, keine zusatzinformation da nicht am arbeitsplatz
+* fragebogen
+	* vorteile: ökonomische, viele beteiligte
+	* nachteile: selbstentwicklete fragen oft unzuverässig, standardfragen passen nicht immer
+	* aspekte, die fehlen, fallen nicht auf
+
+Wie man fragebögen richtig formuliert
+
+* kurze, präzise, prägnante sätze
+* keine suggestivfragen/trivialitäten
+* aspekte einzeln betrachten
+* sollte zwischen Zielgruppen differenzieren
+* 5 stufiges antwortformat meist gut, zusätzlich offene option
+
+beobachten
+ 
+ * teilnehmende vs nichtteilenehmende beobachtung
+ * kategorien und protokolle festlegen/standards nutzen
+ * evtl protokoll mit den beobachteten besprechen
+ 
+ Arbeittagebuch
+ * akteuere beobachten sich selbst und schreiben auf
+ * evtl festes schema vorgeben
+ * evtl. logfiles nutze zur automatischen erstellung
+ * quasi beobachtung über langen zeitraum, zuverlässiger
+ * aufwendig, unvollständig, schwer nachvollziebar
+
+conclusion:
+
+Methode | Vorteile | Nachteile
+---|---|---
+Beobachtung|reale situation|nur ausschnitt
+Interviews|flexibel,details|aufwändig
+fokusgruppe|viele perspektiven, ökonomisch|gegenseitige beeinflussung, auswertung aufwändig
+fragebögen|großzahlig, statistisch verwertbar|nur bekannte aspekte werden erhoben
+arbeitstagebuch|reale situation, längerfristige daten | aufwändig für teilnehemer
+dokumentenanalyse|vorstrukturierung|unvollständige/grobe info
+
+
+szenarien als dokumentationsform
+
+* geschichtenform
+* ist/soll szenarien
+* plus/minus szenarien
+
+**Szenarien können im gesamten projektverlauf verwendet werden**
+
+weitere vorteile sind:
+
+* einfach verständlich für nutzer
+* beinhaltet informelle, implizite fakten
+* unter Umständen verfasst durch nutzer und entwickler gemeinsam
+* wichtig: werden immer zumindest mit nutzer besprochen
+
+Nachteile:
+
+* schwieriger grat zwischen "Märchen erzählen" und alles darstellen
+	* häufig werden szenarien geschaffen, die inexistente Probleme erfinden
+
